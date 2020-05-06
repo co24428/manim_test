@@ -17,7 +17,10 @@ class MoveAlongPath(Animation):
         point = self.path.point_from_proportion(alpha)
         self.mobject.move_to(point)
 ~~~
-
+Line이나 도형의 궤도를 따라 움직인다.  
+시작과 끝에서 느리고 중간에서 빠르게 움직인다.  
+run_time=n을 주어서 시간을 조절할 수 있다.  
+각각을 run_time을 다르게 주려했으나 그 부분은 실패를 했다.
 
 <hr>
 ### 객체에 대한 이해가 필요하다..
